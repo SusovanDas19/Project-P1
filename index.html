@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <title>TODO APP</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container flex">
+    <div class="heading flex"><h1>Add Your Todo</h1></div>
+    <!-- control-section -->
+    <div class="main-part">
+      <div class="control-section">
+
+        <!-- todo No input section -->
+        <div class="control-left">
+          <input type="text" required id="todo-no"></input>
+          <label>No</label>
+        </div>
+
+        <!-- add-section -->
+        <div class="control-right">
+          
+          <div class="add-section">
+            <input type="text" required id="add"></input>
+            <label>Add Task</label>
+            <button onclick="addTodo()" class="btn addButton">Add</button>
+          </div>
+
+          <!-- Modify-section -->
+          <div class="modify-section">
+            <input type="text" required id="modify"></input>
+            <label>Edit Task</label>
+            <button onclick="modifyTodo()" class="btn modifyButton">Edit</button>
+          </div>
+
+          <!-- Delete-section -->
+          <div class="delete-section">
+            <button onclick="deleteTodo()" class="btn deleteButton">Delete</button>
+          </div>
+        </div>
+
+      </div>
+      <!-- todo-list section -->
+      <div id="todos"></div>
+     
+    </div>
+  </div>
+  <div id="toastBox"></div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
+
+<!-- bugs -->
+ <!-- 1. adding large text, the buttons are disrupts
+ 2. input box fixing  -->
