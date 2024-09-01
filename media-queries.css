@@ -86,26 +86,28 @@
 
 @media screen and (max-width: 390px) {
 
-
-    .control-left label {
-        left: 32px;
-    }
-
     .btn {
         padding: 8px 8px;
-        font-size: 18px;
+        font-size: 15px;
         border-radius: 8px;
-        margin: 1px;
     }
+    
+    .control-left input{
+        width: 49px;
+        height: 65px;
+        font-size: 15px;
+        margin-bottom: 80px;
 
+    }
     .control-right input {
-        width: 200px;
+        width: 180px;
         height: 45px;
         margin: 10px;
     }
 
     .control-left label {
         left: 22px;
+        top: 30px;
     }
 
     .control-left input:focus~label,
@@ -116,7 +118,7 @@
     .add-section label,
     .modify-section label {
         left: 70px;
-        top: 40px;
+        top: 35px;
         font-size: 15px;
     }
 
@@ -125,8 +127,9 @@
     .modify-section input:focus~label,
     .modify-section input:valid~label {
         top: 10px;
+        font-size: 18px;
     }
-
+    
     #todos {
         margin-left: 5px;
     }
@@ -159,7 +162,4 @@
     .new-task{
         font-size: 20px;
     }
-
-
-
 }
