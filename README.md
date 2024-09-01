@@ -30,6 +30,7 @@ Project-P1/
 │
 ├── index.html         # Main HTML file
 ├── style.css          # CSS file for styling
+├── media-queries.css  # media-queries.css
 ├── script.js          # JavaScript file for interactivity
 ├── screenshort.png    # Project screenshot
 └── README.md          # Project documentation
