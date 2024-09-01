@@ -1,0 +1,152 @@
+@media screen and (max-width: 1420px) {
+    .main-part {
+        flex-direction: column;
+    }
+
+    .control-section,
+    #todos {
+        width: 100%;
+    }
+
+    #todos {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .container {
+        margin: 0 20px 0 20px;
+    }
+
+    .heading h1 {
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+    .control-left {
+        max-width: 10%;
+    }
+
+    .control-right {
+        max-width: 90%;
+    }
+
+    .add-section label,
+    .modify-section label {
+        top: 45px;
+        left: 107px;
+    }
+
+    .control-left {
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    .no-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .control-left label {
+        left: 25px;
+    }
+
+    .control-left input:focus~label,
+    .control-left input:valid~label {
+        left: 25px;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    .control-left {
+        max-width: 20%;
+    }
+
+    .control-right {
+        max-width: 80%;
+    }
+
+    .add-section label,
+    .modify-section label {
+        top: 50px;
+        left: 50px;
+    }
+
+    .control-left label {
+        left: 45px;
+    }
+
+    .control-left input:focus~label,
+    .control-left input:valid~label {
+        left: 45px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+
+    .control-left label {
+        left: 32px;
+    }
+
+    .btn {
+        padding: 5px 5px;
+        font-size: 15px;
+        border-radius: 5px;
+        margin: 1px;
+    }
+
+    .control-right input {
+        width: 200px;
+        margin: 10px;
+        padding: 0px;
+    }
+
+    .control-left label {
+        left: 22px;
+    }
+
+    .control-left input:focus~label,
+    .control-left input:valid~label {
+        left: 22px;
+    }
+
+    .add-section label,
+    .modify-section label {
+        left: 70px;
+        top: 40px;
+    }
+
+    .add-section input:focus~label,
+    .add-section input:valid~label,
+    .modify-section input:focus~label,
+    .modify-section input:valid~label {
+        top: 10px;
+    }
+
+    #todos {
+        margin-left: 5px;
+    }
+
+    .control-left {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    #toastBox {
+        bottom: 10px;
+        right: 5px;
+        padding: 10px;
+    }
+
+    .toast {
+        width: 200px;
+        height: 40px;
+        font-weight: 500;
+        margin: 5px 0;
+    }
+
+
+}
