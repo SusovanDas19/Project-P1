@@ -15,6 +15,7 @@ body {
     margin: 0 100px 0 100px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .heading h1 {
@@ -23,16 +24,16 @@ body {
     font-style: normal;
     width: 300px;
     height: 50px;
-    padding-top: 5px;
     margin: 50px auto 130px auto;
     border-radius: 10px;
     border: 1px solid white;
-    box-shadow: 4px 4px 10px rgba(232, 224, 224, 0.50);
-    ;
+    box-shadow: 4px 4px 10px rgba(232, 224, 224, 0.50);;
     text-align: center;
     justify-content: center;
     display: flex;
     background-color: black;
+    justify-content: center;
+    align-items: center;
 }
 
 /* button-section  */
@@ -53,8 +54,12 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.delete-section button {
-    margin-right: 330px;
+.delete-section{
+    display: flex;
+    align-items: center;
+}
+.delete-section button{
+    margin-left: 105px;
 }
 
 .addButton:hover {
@@ -89,10 +94,10 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-bottom: 80px;
 }
 
 .no-input{
-    margin-bottom: 80px;
     position: relative;
     width: 100%;
 }
@@ -157,7 +162,7 @@ body {
     outline: none;
     color: white;
 }
-.add-section, .modify-section {
+.add-section, .modify-section, .delete-section {
     position: relative;
     width: 100%; 
     margin-bottom: 20px; 
@@ -165,8 +170,8 @@ body {
 .add-section label,
 .modify-section label {
     position: absolute;
-    top: 50%;
-    left: 22%; 
+    top: 50px;
+    left: 150px; 
     transform: translateY(-50%);
     color: white;
     font-size: 22px;
@@ -203,12 +208,14 @@ body {
 .newTask {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
+    margin: 5px 0;
     font-size: 25px;
     color: white;
     width: 100%;
+    gap: 15px;
+
 }
+
 .newTask label {
     position: relative;
     width: 50px;
