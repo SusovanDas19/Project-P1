@@ -85,7 +85,10 @@
 }
 
 @media screen and (max-width: 450px) {
-
+    
+    .main-part{
+        margin-top: 20px;
+    }
     .btn {
         padding: 9px 9px;
         font-size: 15px;
@@ -129,6 +132,10 @@
     .modify-section input:valid~label {
         top: 10px;
         font-size: 18px;
+    }
+
+    .delete-section button{
+        margin-left: 70px;
     }
     
     #todos {
