@@ -19,10 +19,6 @@ This project is part of **Cohort 3.0, Week 3 Assignment**. It focuses on utilizi
 - Interactive elements powered by DOM manipulation.
 - Asynchronous operations for enhanced user experience.
 
-## 🛠️ Bugs
-- Not a Responsive design
-- There are some limitations to the design
-
 ## 📂 Project Structure
 
 ```plaintext
