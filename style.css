@@ -5,12 +5,10 @@
 }
 
 body {
-    min-height: 100vb;
+    height: 100vh;
     background: radial-gradient(circle at top left, #004d66b7, transparent 50%),
-        radial-gradient(circle at bottom right, #ff0066, transparent 52%),
+        radial-gradient(circle at bottom right, #ff006663, transparent 52%),
         #001533;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .container {
