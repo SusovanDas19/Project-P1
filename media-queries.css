@@ -92,16 +92,16 @@
     }
 
     .btn {
-        padding: 5px 5px;
-        font-size: 15px;
-        border-radius: 5px;
+        padding: 8px 8px;
+        font-size: 18px;
+        border-radius: 8px;
         margin: 1px;
     }
 
     .control-right input {
         width: 200px;
+        height: 45px;
         margin: 10px;
-        padding: 0px;
     }
 
     .control-left label {
@@ -117,6 +117,7 @@
     .modify-section label {
         left: 70px;
         top: 40px;
+        font-size: 15px;
     }
 
     .add-section input:focus~label,
@@ -147,6 +148,18 @@
         font-weight: 500;
         margin: 5px 0;
     }
+
+    .toast-add i,
+    .toast-inv i, 
+    .toast-mod i,
+    .toast-del i {
+        font-size: 28px;
+    }
+
+    .new-task{
+        font-size: 20px;
+    }
+
 
 
 }
